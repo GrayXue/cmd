@@ -1,5 +1,5 @@
 # cmd
-一个裸机串口命令行模块
+一个裸机串口命令行模块,由FreeRTOSCLI模块移植过来。
 
 ### 先来看一下效果： 
 ![use](https://raw.githubusercontent.com/redocCheng/cmd/master/image/cmd_use.gif )
