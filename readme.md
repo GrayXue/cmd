@@ -13,7 +13,7 @@
     3、命令由链表管理，需要对其初始化
 
 ### 命令的格式： 
-> cmd <param> <param> ... <param> (param的个数需要指定)
+cmd <param> <param> ... <param> (param的个数需要指定)
 
 ### 命令定义：  
 ```
@@ -29,7 +29,7 @@ const CLI_Command_Definition_t xTest =
 ```
 
 ### 参数的使用： 
-    解析相应的参数，以字符串相比较。例如解析第一个参数，该参数等于“version”，就输出当前软件的版本信息。使用的时候注意参数检测，非法参数做报错处理。
+解析相应的参数，以字符串相比较。例如解析第一个参数，该参数等于“version”，就输出当前软件的版本信息。使用的时候注意参数检测，非法参数做报错处理。
 ```
 pcParameter = FreeRTOS_CLIGetParameter  \
                 (
@@ -55,4 +55,7 @@ else
     sprintf( pcWriteBuffer," '%s' Is Not a Valid parameters\r\n",pcParameter);
 }
 ```
+
+### demo
+参考[cmd_demo](https://raw.githubusercontent.com/redocCheng/cmd/master/cmd_demo)
 
