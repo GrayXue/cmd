@@ -57,5 +57,5 @@ else
 ```
 
 ### demo
-参考[cmd_demo](https://raw.githubusercontent.com/redocCheng/cmd/master/cmd_demo)
+参考[cmd_demo](https://github.com/redocCheng/cmd/tree/master/cmd_demo)
 
