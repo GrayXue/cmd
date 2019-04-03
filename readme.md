@@ -2,10 +2,10 @@
 一个裸机串口命令行模块
 
 ### 先来看一下效果： 
-[use](https://github.com/redocCheng/cmd/edit/master/image/cmd_use )
+![use](https://github.com/redocCheng/cmd/edit/master/image/cmd_use )
 
 ### 命令文件构成： 
-[cmd](https://github.com/redocCheng/cmd/edit/master/image/cmd_cmd)
+![cmd](https://github.com/redocCheng/cmd/edit/master/image/cmd_cmd)
 
 ### 移植注意点： 
     1、接收不定长串口数据，给命令行处理,demo中采用队列完成；
