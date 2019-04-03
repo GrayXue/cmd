@@ -1,18 +1,18 @@
-###先来看一下效果：
-![图片alt](./image/cmd_use )
+##先来看一下效果：
+!(./image/cmd_use )
 
-###命令文件构成：
-![图片alt](./image/cmd_cmd)
+##命令文件构成：
+!(./image/cmd_cmd)
 
-###移植注意点：
+##移植注意点：
     1、接收不定长串口数据，给命令行处理,demo中采用队列完成；
     2、命令行内部会发送，
     3、命令由链表管理，需要对其初始化
 
-###命令的格式：
+##命令的格式：
 > cmd <param> <param> ... <param> (param的个数需要指定)
 
-###命令定义：
+##命令定义：
 ```
 const CLI_Command_Definition_t xTest =
 {
@@ -25,7 +25,7 @@ const CLI_Command_Definition_t xTest =
 };
 ```
 
-###参数的使用：
+##参数的使用：
     解析相应的参数，以字符串相比较。例如解析第一个参数，该参数等于“version”，就输出当前软件的版本信息。使用的时候注意参数检测，非法参数做报错处理。
 ```
 pcParameter = FreeRTOS_CLIGetParameter  \
